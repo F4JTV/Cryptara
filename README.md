@@ -142,7 +142,7 @@ GPL-3.0. See the [LICENSE](LICENSE) file.
 
 ## 🤝 Credits
 
-Developed and maintained by the **SDR++ Community**.
+Developed and maintained by the **ADRASEC 06**.
 
 Built on the VARA protocol by EA5HVK. Not affiliated with or endorsed by the VARA
 authors.
