@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+#
+# Metadonnees de version pour l'executable Windows (VS_VERSION_INFO).
+# Utilise par PyInstaller via l'option version=... dans le .spec.
+#
+# Un exe avec des metadonnees completes est mieux identifie par Windows
+# (SmartScreen, Smart App Control, antivirus) qu'un exe "nu".
+#
+# IMPORTANT : filevers et prodvers doivent etre des tuples de 4 entiers.
+# Pense a les mettre a jour en meme temps que la version de l'application.
+
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 3, 1, 0),
+        prodvers=(1, 3, 1, 0),
+        mask=0x3f,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0),
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    '040904B0',  # langue US-English, charset Unicode
+                    [
+                        StringStruct('CompanyName', 'F4JTV'),
+                        StringStruct('FileDescription', 'CRYPTARA - Secure VARA chat client'),
+                        StringStruct('FileVersion', '1.3.1.0'),
+                        StringStruct('InternalName', 'CRYPTARA'),
+                        StringStruct('LegalCopyright', 'Copyright (C) 2026 F4JTV. GPL-3.0.'),
+                        StringStruct('OriginalFilename', 'CRYPTARA.exe'),
+                        StringStruct('ProductName', 'CRYPTARA'),
+                        StringStruct('ProductVersion', '1.3.1.0'),
+                    ]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct('Translation', [0x0409, 0x04B0])]),
+    ],
+)

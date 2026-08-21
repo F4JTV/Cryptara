@@ -16,7 +16,7 @@
 
 #define MyAppName "CRYPTARA"
 #define MyAppVersion "1.3.6"
-#define MyAppPublisher "SDR++ Community"
+#define MyAppPublisher "F4JTV"
 #define MyAppExeName "CRYPTARA.exe"
 
 [Setup]

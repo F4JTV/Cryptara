@@ -47,6 +47,9 @@ exe = EXE(
     console=False,                  # GUI : pas de fenêtre console
     disable_windowed_traceback=False,
     icon='icon.ico',
+    # Métadonnées de version (VS_VERSION_INFO) intégrées à l'exe :
+    # améliore l'identification par SmartScreen / Smart App Control / antivirus
+    version='version_info.txt',
 )
 
 coll = COLLECT(
