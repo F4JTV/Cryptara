@@ -1,0 +1,40 @@
+// cryptara.rc - icon and version information of CRYPTARA.exe.
+//
+// An executable with complete version information is better treated by
+// SmartScreen, Smart App Control and antivirus tools than a bare one.  The
+// numbers come from version.h, generated from CMakeLists.txt.
+// Keep this file with CRLF line endings (see .gitattributes).
+
+#include <winver.h>
+#include "version.h"
+
+IDI_ICON1 ICON "cryptara.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION     CRYPTARA_VERSION_MAJOR,CRYPTARA_VERSION_MINOR,CRYPTARA_VERSION_PATCH,0
+ PRODUCTVERSION  CRYPTARA_VERSION_MAJOR,CRYPTARA_VERSION_MINOR,CRYPTARA_VERSION_PATCH,0
+ FILEFLAGSMASK   0x3fL
+ FILEFLAGS       0x0L
+ FILEOS          VOS_NT_WINDOWS32
+ FILETYPE        VFT_APP
+ FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName",      "CRYPTARA Community"
+            VALUE "FileDescription",  "CRYPTARA - Secure VARA chat client"
+            VALUE "FileVersion",      CRYPTARA_VERSION_STRING
+            VALUE "InternalName",     "CRYPTARA"
+            VALUE "LegalCopyright",   "Copyright (C) 2026 CRYPTARA Community. GPL-3.0."
+            VALUE "OriginalFilename", "CRYPTARA.exe"
+            VALUE "ProductName",      "CRYPTARA"
+            VALUE "ProductVersion",   CRYPTARA_VERSION_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

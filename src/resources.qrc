@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="qtquickcontrols2.conf">qml/qtquickcontrols2.conf</file>
+        <file alias="assets/cryptara.png">../assets/cryptara.png</file>
+        <file>qml/Main.qml</file>
+        <file>qml/CButton.qml</file>
+        <file>qml/Panel.qml</file>
+        <file>qml/LineView.qml</file>
+        <file>qml/MessageBox.qml</file>
+        <file>qml/PasswordDialog.qml</file>
+        <file>qml/SettingsDialog.qml</file>
+        <file>qml/MacrosDialog.qml</file>
+        <file>qml/TableDialog.qml</file>
+        <file>qml/AboutDialog.qml</file>
+        <file>qml/Tip.qml</file>
+        <file>qml/CCombo.qml</file>
+        <file>qml/CField.qml</file>
+    </qresource>
+</RCC>
